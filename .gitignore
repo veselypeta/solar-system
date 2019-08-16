@@ -108,4 +108,4 @@ venv.bak/
 .idea
 
 # virtualenv subfolder
-/solar-system
+solar-system/
