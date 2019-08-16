@@ -89,6 +89,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea
 
 # Spyder project settings
 .spyderproject
@@ -105,3 +106,6 @@ venv.bak/
 
 # idea project setting
 .idea
+
+# virtualenv subfolder
+/solar-system
