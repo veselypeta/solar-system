@@ -3,11 +3,14 @@ import matplotlib.animation as f
 import sys
 from src.parse_data import parse_planet_data
 
+
 def get_animation_range():
     return 1
 
-def move_planets():
+
+def move_planets(i, patches):
     pass
+
 
 def run_simulation():
     # Create a matplotlib plot
