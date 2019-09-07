@@ -1,6 +1,7 @@
+import src.simulation as sim
 
 def main():
-    print('Testing that this works')
+    sim.run_simulation()
 
 if __name__ == '__main__':
     main()
