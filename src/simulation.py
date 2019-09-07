@@ -12,7 +12,7 @@ def run_simulation():
 # Locations/mass of all planets including sun
 # We then calculate the force acting on the planet using formulas
 # From which we can calculate the acceleration of that planet.
-
+#
 
 class Planet:
     pass
