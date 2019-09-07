@@ -2,6 +2,7 @@ import csv
 import numpy as np
 from src.Planet import Planet
 
+
 def parse_planet_data(filename):
     with open(filename) as planetFile:
         csv_reader = csv.reader(planetFile)
@@ -15,3 +16,5 @@ def parse_planet_data(filename):
             colour = str(planet[7])
             p = Planet(name, mass, position, velocity, radius, colour)
             all_planets.append(p)
+
+    return all_planets
