@@ -87,12 +87,6 @@ def run_simulation():
         patches.append(c)
 
     # run the animation and show the plot
-    animation = f.FuncAnimation(fig, move_planets, fargs=(patches, planets))
+    animation = f.FuncAnimation(fig, move_planets, interval=1, fargs=(patches, planets))
     plt.show()
 
-# We also need to calculate the next position of a planet from the previous data.
-
-# Data that we need
-# Locations/mass of all planets including sun
-# We then calculate the force acting on the planet using formulas
-# From which we can calculate the acceleration of that planet.
