@@ -6,4 +6,6 @@ class Planet:
         self.velocity = velocity
         self.radius = radius
         self.colour = colour
+        self.acceleration = 0
+        self.previous_acceleration = 0
 
